@@ -29,9 +29,9 @@ See [`demo.html`](demo.html) :
 	</head>
 	<body>
 		<form>
-			<input type="number" class="nextInput" maxLength="4" id="year" data-next-input="date" />
-			<input type="number" class="nextInput" maxLength="2" id="month" data-next-input="date" />
-			<input type="number" class="nextInput" maxLength="2" id="day" data-next-input="date" />
+			<input type="number" class="nextInput" maxLength="4" id="year" data-next-input="date" placeholder="Year" />
+			<input type="number" class="nextInput" maxLength="2" id="month" data-next-input="date" placeholder="Month" />
+			<input type="number" class="nextInput" maxLength="2" id="day" data-next-input="date" placeholder="Day" />
 			<button>Show day</button>
 		</form>
 	</body>
