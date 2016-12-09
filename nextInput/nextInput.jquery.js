@@ -15,11 +15,13 @@
 				}
 
 				// Need to switch to next ?
-				console.log(event.keyCode)
 				if (length == this.maxLength && event.keyCode > 47) {
 
-					var $next = $(this).next(target);
-					$next.focus();
+					// Is the input valid?
+					if (!$(this).is(':invalid')) {
+						var $next = $(this).next(target);
+						$next.focus();
+					}
 
 				}
 
